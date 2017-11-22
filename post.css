@@ -1,0 +1,105 @@
+.story{
+  color: #365899;
+  padding-top: 20px;
+}
+.message{
+  font-size: 1em;
+}
+.time{
+  padding: 5px;
+  font-size: 0.9em;
+  opacity: 0.6;
+}
+.card-block {
+  padding: 10px;
+}
+
+.fbstatus{
+  background-color: #E9EBEE;
+  visibility: collapse;
+}
+.fbprofile{
+  visibility: collapse;
+}
+.loader{
+  visibility: collapse;
+
+}
+
+img{
+  height: 100px;
+  width: 100px;
+}
+
+.header{
+  height: 50px;
+  background-color: #34519B;
+  color: #FFFFFF;
+}
+.header h5{
+  font-size: 1.5em;
+  margin-left: 15px;
+  padding-top: 12px;
+  font-weight: 800;
+}
+.statuss{
+  background-color: #8DBDD8;
+  cursor: pointer;
+}
+.profiles{
+  background-color: #8DBDD8;
+  cursor: pointer;
+}
+.profilebox{
+  background-color: #F2F2F2;
+}
+.name{
+  font-size: 1.3em;
+  font-weight: 600;
+}
+.value{
+  margin-left: 30px;
+}
+.title{
+  margin-left: 30px;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+#about{
+  margin-top: 20px;
+  position: relative;
+  padding: 1em 0;
+  list-style: none;
+}
+#about li{
+  width: 100%;
+  z-index: 2;
+  position: relative;
+  float: left;
+  margin-bottom: 5px;
+}
+#about .title{
+  display: inline-block;
+}
+#about .value{
+  display: inline-block;
+}
+.loader {
+  border: 6px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 6px solid black;
+  width: 20px;
+  height: 20px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
